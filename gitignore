@@ -1,0 +1,23 @@
+# Data files - do not commit
+*.bam
+*.bai
+*.fastq.gz
+*.fasta
+*.fa
+*.bt2
+*.bigwig
+*.bw
+
+# SLURM logs
+*.out
+*.err
+
+# Output directories
+signal/
+peaks/
+idr/
+logs/
+
+# Temp files
+*.sam
+*.tmp.*
